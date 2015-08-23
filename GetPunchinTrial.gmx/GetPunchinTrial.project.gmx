@@ -6,15 +6,15 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\Wall</sprite>
-    <sprite>sprites\punch_lf</sprite>
-    <sprite>sprites\punch_rt</sprite>
-    <sprite>sprites\punch_up</sprite>
-    <sprite>sprites\punch_dn</sprite>
-    <sprite>sprites\punchee</sprite>
-    <sprite>sprites\fist_sp</sprite>
-    <sprite>sprites\block_sp</sprite>
-    <sprite>sprites\hole_sp</sprite>
+    <sprite>sprites\sp_wall</sprite>
+    <sprite>sprites\sp_punchlf</sprite>
+    <sprite>sprites\sp_punchrt</sprite>
+    <sprite>sprites\sp_punchup</sprite>
+    <sprite>sprites\sp_punchdn</sprite>
+    <sprite>sprites\sp_punchee</sprite>
+    <sprite>sprites\sp_fist</sprite>
+    <sprite>sprites\sp_block</sprite>
+    <sprite>sprites\sp_hole</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -25,21 +25,22 @@
   </scripts>
   <objects name="objects">
     <object>objects\pnch_rt</object>
-    <object>objects\wll</object>
-    <object>objects\punched</object>
+    <object>objects\obj_wall</object>
+    <object>objects\obj_punched</object>
     <object>objects\object3</object>
-    <object>objects\puncher</object>
-    <object>objects\slide_punch</object>
-    <object>objects\fist</object>
-    <object>objects\slide_pos_y</object>
-    <object>objects\slide_neg_y</object>
-    <object>objects\slide_pos_x</object>
-    <object>objects\slide_neg_x</object>
-    <object>objects\door</object>
-    <object>objects\goal</object>
-    <object>objects\returner</object>
-    <object>objects\block_ob</object>
-    <object>objects\hole_ob</object>
+    <object>objects\obj_puncher</object>
+    <object>objects\obj_slidepunch</object>
+    <object>objects\obj_fist</object>
+    <object>objects\obj_slide_pos_y</object>
+    <object>objects\obj_slide_neg_y</object>
+    <object>objects\obj_slide_pos_x</object>
+    <object>objects\obj_slide_neg_x</object>
+    <object>objects\obj_door</object>
+    <object>objects\obj_goal</object>
+    <object>objects\obj_returner</object>
+    <object>objects\obj_block_ob</object>
+    <object>objects\obj_hole_ob</object>
+    <object>objects\obj_control</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\TheRoom</room>

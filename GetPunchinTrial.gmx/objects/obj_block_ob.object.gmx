@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="4" ename="hole_ob">
+    <event eventtype="4" ename="obj_hole_ob">
       <action>
         <libid>1</libid>
         <id>203</id>
@@ -24,7 +24,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="block_ob">
+    <event eventtype="4" ename="obj_block_ob">
       <action>
         <libid>1</libid>
         <id>101</id>
@@ -50,7 +50,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="slide_neg_x">
+    <event eventtype="4" ename="obj_slide_neg_x">
       <action>
         <libid>1</libid>
         <id>101</id>
@@ -76,7 +76,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="slide_pos_x">
+    <event eventtype="4" ename="obj_slide_pos_x">
       <action>
         <libid>1</libid>
         <id>101</id>
@@ -102,7 +102,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="slide_neg_y">
+    <event eventtype="4" ename="obj_slide_neg_y">
       <action>
         <libid>1</libid>
         <id>101</id>
@@ -128,7 +128,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="slide_pos_y">
+    <event eventtype="4" ename="obj_slide_pos_y">
       <action>
         <libid>1</libid>
         <id>101</id>
@@ -154,7 +154,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="fist">
+    <event eventtype="4" ename="obj_fist">
       <action>
         <libid>1</libid>
         <id>612</id>
@@ -476,7 +476,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="wll">
+    <event eventtype="4" ename="obj_wall">
       <action>
         <libid>1</libid>
         <id>101</id>
