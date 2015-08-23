@@ -49,7 +49,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>100</string>
+            <string>10</string>
           </argument>
         </arguments>
       </action>
@@ -81,12 +81,12 @@
         <exetype>1</exetype>
         <functionname>action_kill_object</functionname>
         <codestring></codestring>
-        <whoName>fist</whoName>
+        <whoName>obj_fist</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="block_ob">
+    <event eventtype="4" ename="obj_block_ob">
       <action>
         <libid>1</libid>
         <id>101</id>
@@ -112,7 +112,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="returner">
+    <event eventtype="4" ename="obj_returner">
       <action>
         <libid>1</libid>
         <id>221</id>
@@ -128,7 +128,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="goal">
+    <event eventtype="4" ename="obj_goal">
       <action>
         <libid>1</libid>
         <id>222</id>
@@ -144,7 +144,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="wll">
+    <event eventtype="4" ename="obj_wall">
       <action>
         <libid>1</libid>
         <id>101</id>
@@ -508,48 +508,6 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>723</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_draw_health</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>-1</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>10</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>10</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>20</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>10</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>3</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="9" enumb="90">
       <action>
         <libid>1</libid>
@@ -609,7 +567,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>fist</object>
+            <object>obj_fist</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -717,7 +675,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>fist</object>
+            <object>obj_fist</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -825,7 +783,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>fist</object>
+            <object>obj_fist</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -933,7 +891,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>fist</object>
+            <object>obj_fist</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1043,7 +1001,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>fist</object>
+            <object>obj_fist</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1151,7 +1109,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>fist</object>
+            <object>obj_fist</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1259,7 +1217,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>fist</object>
+            <object>obj_fist</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1367,7 +1325,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>fist</object>
+            <object>obj_fist</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1477,7 +1435,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>fist</object>
+            <object>obj_fist</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1585,7 +1543,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>fist</object>
+            <object>obj_fist</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1693,7 +1651,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>fist</object>
+            <object>obj_fist</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1801,7 +1759,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>fist</object>
+            <object>obj_fist</object>
           </argument>
           <argument>
             <kind>0</kind>
