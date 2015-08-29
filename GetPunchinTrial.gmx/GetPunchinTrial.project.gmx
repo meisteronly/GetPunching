@@ -15,11 +15,17 @@
     <sprite>sprites\sp_fist</sprite>
     <sprite>sprites\sp_block</sprite>
     <sprite>sprites\sp_hole</sprite>
+    <sprite>sprites\sp_hook</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\hookpath1</path>
+    <path>paths\hookpath2</path>
+    <path>paths\hookpath3</path>
+    <path>paths\hookpath4</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\script0.gml</script>
   </scripts>
@@ -41,6 +47,10 @@
     <object>objects\obj_block_ob</object>
     <object>objects\obj_hole_ob</object>
     <object>objects\obj_control</object>
+    <object>objects\obj_righthook1</object>
+    <object>objects\obj_righthook2</object>
+    <object>objects\obj_righthook3</object>
+    <object>objects\obj_righthook4</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\TheRoom</room>
